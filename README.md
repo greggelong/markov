@@ -19,7 +19,7 @@ Here I am only using the start of the seed text with whatever order length
 
 or a ngram I am sure the seed text has such as "the"
 
-(javascript) ```
+``` javascript
 
 let currentGram =txt.substring(0,order);
 let currentGram ="the"
