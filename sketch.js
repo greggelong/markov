@@ -6,6 +6,7 @@ let txt = "I saw the best minds of my generation destroyed by madness, starving 
 let order =3;
 let ngrams ={};
 let button;
+let foo = new p5.Speech();
 
 // javascript object ngram and array that follows it
 
@@ -67,6 +68,8 @@ function markovit(){
   }
 
   createP(result)
+  foo.speak(result)
+  
 }
 
  
